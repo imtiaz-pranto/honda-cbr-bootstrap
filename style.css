@@ -16,8 +16,8 @@ body {
   height: 243px;
 }
 .img-faq {
-  width: 431.2px;
-  height: 423.5px;
+  width: 400px;
+  height: 400px;
 }
 .img-greyscale {
   width: 288px;
@@ -28,6 +28,19 @@ body {
 span {
   color: #e76f51;
 }
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
 .faq {
   text-decoration: none;
+}
+.footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(24, 23, 23);
+  color: rgb(228, 225, 225);
+  text-align: center;
 }

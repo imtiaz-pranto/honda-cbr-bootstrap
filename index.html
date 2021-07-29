@@ -280,12 +280,14 @@
       </div>
 
       <div class="row d-flex justify-content-center mb-5">
-        <div class="p-2 col-lg-5 d-flex justify-end">
+        <div class="p-2 col-lg-5 d-flex justify-content-end">
           <img src="images/faq.png" class="img-faq" alt="faq" />
         </div>
         <div class="p-2 col-lg-6">
-          <div class="accordion" id="accordionExample">
-            <div class="card">
+          <div class="accordion mb-3" id="accordion">
+            <!-- Card 1 -->
+
+            <div class="card mb-2">
               <div class="card-header" id="headingOne">
                 <h2 class="mb-0">
                   <button
@@ -307,7 +309,8 @@
                 id="collapseOne"
                 class="collapse show"
                 aria-labelledby="headingOne"
-                data-parent="#accordionExample"
+                data-parent="#accordion
+"
               >
                 <div class="card-body">
                   Safety First! Always obey the rules of the road. Obey all
@@ -317,7 +320,10 @@
                 </div>
               </div>
             </div>
-            <div class="card">
+
+            <!-- Card 2 -->
+
+            <div class="card mb-2">
               <div class="card-header" id="headingTwo">
                 <h2 class="mb-0">
                   <button
@@ -336,7 +342,8 @@
                 id="collapseTwo"
                 class="collapse"
                 aria-labelledby="headingTwo"
-                data-parent="#accordionExample"
+                data-parent="#accordion
+"
               >
                 <div class="card-body">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
@@ -346,7 +353,10 @@
                 </div>
               </div>
             </div>
-            <div class="card">
+
+            <!-- Card 3 -->
+
+            <div class="card mb-2">
               <div class="card-header" id="headingThree">
                 <h2 class="mb-0">
                   <button
@@ -365,7 +375,8 @@
                 id="collapseThree"
                 class="collapse"
                 aria-labelledby="headingThree"
-                data-parent="#accordionExample"
+                data-parent="#accordion
+"
               >
                 <div class="card-body">
                   Anim pariatur cliche reprehenderit, enim eiusmod high life
@@ -375,26 +386,28 @@
                 </div>
               </div>
             </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
+            <!-- Card 4 -->
+            <div class="card mb-2">
+              <div class="card-header" id="headingFour">
                 <h2 class="mb-0">
                   <button
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
-                    data-target="#collapseThree"
+                    data-target="#collapseFour"
                     aria-expanded="false"
-                    aria-controls="collapseThree"
+                    aria-controls="collapseFour"
                   >
                     What rules should I follow when riding my bike?
                   </button>
                 </h2>
               </div>
               <div
-                id="collapseThree"
+                id="collapseFour"
                 class="collapse"
-                aria-labelledby="headingThree"
-                data-parent="#accordionExample"
+                aria-labelledby="headingFour"
+                data-parent="#accordion
+"
               >
                 <div class="card-body">
                   Anim pariatur cliche reprehenderit, enim eiusmod high life
@@ -408,10 +421,68 @@
         </div>
       </div>
     </section>
-    <!-- Footer -->
 
-    <footer></footer>
-    <!-- Bootstrap JS -->
+    <!-- Footer Start-->
+
+    <section>
+      <footer class="bg-secondary text-white text-center text-md-start">
+        <div class="container">
+          <div class="row d-flex align-items-center justify-content-around">
+            <div class="col-lg-6 col-md-12 ms-3 mt-3 mb-0 mb-md-0">
+              <ul
+                class="
+                  list-unstyled
+                  mb-0
+                  d-flex
+                  justify-content-around
+                  align-items-center
+                "
+              >
+                <li>
+                  <a href="#!" class="text-white">About</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Features</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Pricing</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Help</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Privacy Policy</a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="
+                col-lg-3 col-md-6
+                mb-2 mb-md-0
+                ms-5
+                d-flex
+                justify-content-end
+                align-items-center
+              "
+            >
+              <img
+                src="images/badges.png"
+                height="250px"
+                width="450"
+                alt="download app"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2020 Copyright Reserved.
+        </div>
+      </footer>
+    </section>
+    <!-- Footer End -->
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
