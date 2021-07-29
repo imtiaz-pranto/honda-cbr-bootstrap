@@ -19,6 +19,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/easyzoom@2.5.3/css/easyzoom.css"
+    />
     <script
       src="https://kit.fontawesome.com/9bca460c29.js"
       crossorigin="anonymous"
@@ -424,9 +428,37 @@
       </div>
     </section>
 
+    <!-- Zoom -->
+    <div class="d-flex justify-content-center">
+      <div class="page-content page-container" id="page-content">
+        <div class="padding">
+          <div class="row container d-flex justify-content-center">
+            <div class="col-md-10 d-none d-lg-block stretch-card">
+              <div class="d-flex justify-content-center">
+                <div class="card-body">
+                  <h2 class="card-title fw-bold text-danger">
+                    View The Beast Upclose
+                  </h2>
+                  <div class="easyzoom easyzoom--overlay zoom">
+                    <a href="images/header-bike.png">
+                      <img
+                        class="mainimage mb-5"
+                        src="images/header-bike.png"
+                        height="350"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Prices -->
 
-    <h1 class="display-4 d-flex justify-content-center">Versions</h1>
+    <h1 class="display-4 d-flex justify-content-center mt-5">Versions</h1>
     <section class="container">
       <div class="row">
         <div class="col-lg-6 col-md-10">
@@ -564,5 +596,11 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/easyzoom@2.5.3/src/easyzoom.js"></script>
+    <script>
+      $(document).ready(function () {
+        var $easyzoom = $(".easyzoom").easyZoom();
+      });
+    </script>
   </body>
 </html>

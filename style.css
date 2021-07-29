@@ -45,3 +45,15 @@ a {
   color: rgb(228, 225, 225);
   text-align: center;
 }
+
+.zoom {
+  padding: 50px;
+  transition: transform 0.2s; /* Animation */
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.3); /* (150% zoom)*/
+}
