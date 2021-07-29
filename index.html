@@ -19,6 +19,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/9bca460c29.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Honda CBR Website</title>
   </head>
   <body>
@@ -59,21 +64,13 @@
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
               </p>
-              <!-- <button
-                type="button"
-                class="btn custom-btn"
-                data-toggle="modal"
-                data-target="#exampleModal"
-              >
-                Purchase
-              </button> -->
 
               <!-- Button Modal -->
               <button
                 type="button"
                 class="btn custom-btn"
                 data-toggle="modal"
-                data-target="#exampleModal"
+                data-target="#PopupModal"
               >
                 Purchase
               </button>
@@ -81,16 +78,16 @@
               <!-- Modal -->
               <div
                 class="modal fade"
-                id="exampleModal"
+                id="PopupModal"
                 tabindex="-1"
                 role="dialog"
-                aria-labelledby="exampleModalLabel"
+                aria-labelledby="PopupModalLabel"
                 aria-hidden="true"
               >
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">
+                      <h5 class="modal-title" id="PopupModalLabel">
                         Your Honda is Ready!
                       </h5>
                       <button
@@ -126,17 +123,160 @@
         </div>
       </container>
     </section>
+
     <!-- Featured -->
-    <section></section>
+
+    <section>
+      <div class="d-flex align-items-center flex-column bd-highlight mt-5">
+        <h2>Featured Bikes 2021</h2>
+        <p class="text-danger">Best Bike Collection</p>
+        <hr
+          class="mt-0 mb-5"
+          style="height: 2px; width: 10%; border-width: 0; color: red"
+        />
+      </div>
+      <div class="d-flex justify-content-around mb-5">
+        <div class="p-2">
+          <img
+            src="images/feature-bike.jpg"
+            class="img-greyscale"
+            alt="featured bike"
+          />
+        </div>
+        <div class="p-2">
+          <img
+            src="images/feature-bike.jpg"
+            class="img-featured"
+            alt="featured bike"
+          />
+        </div>
+        <div class="p-2 img-greyscale">
+          <img
+            src="images/feature-bike.jpg"
+            class="img-greyscale"
+            alt="featured bike"
+          />
+        </div>
+      </div>
+    </section>
 
     <!-- News Blog -->
     <section></section>
     <!-- Client -->
-    <section></section>
+    <section>
+      <div class="d-flex align-items-center flex-column mt-5">
+        <h2 class="fw-bold p-5">Happy <span>Client says</span></h2>
+      </div>
+      <div class="d-flex justify-content-around m-5">
+        <!-- Client Card 1 -->
+        <div class="card text-center m-3" style="width: 18rem">
+          <div
+            class="
+              d-flex
+              justify-content-center
+              align-items-center
+              flex-column
+              p-3
+            "
+          >
+            <img
+              src="images/user-1.png"
+              class="card-img-top w-50"
+              alt="user-1"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <span style="color: #e77c40">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </span>
+              <p class="card-text text-primary fw-bold">Regina Miles</p>
+              <p class="card-text mt-3 fw-bold">Banker</p>
+            </div>
+          </div>
+        </div>
+        <!-- Client Card Ends -->
+        <!-- Client Card -->
+        <div class="card text-center m-3" style="width: 18rem">
+          <div
+            class="
+              d-flex
+              justify-content-center
+              align-items-center
+              flex-column
+              p-3
+            "
+          >
+            <img
+              src="images/user-2.png"
+              class="card-img-top w-50"
+              alt="user-2"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <span style="color: #e77c40">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </span>
+              <p class="card-text text-primary fw-bold">Sarah Conner</p>
+              <p class="card-text mt-3 fw-bold">Doctor</p>
+            </div>
+          </div>
+        </div>
+        <!-- Client Card 2 Ends -->
+        <!-- Client Card 3 -->
+        <div class="card text-center m-3" style="width: 18rem">
+          <div
+            class="
+              d-flex
+              justify-content-center
+              align-items-center
+              flex-column
+              p-3
+            "
+          >
+            <img
+              src="images/user-3.png"
+              class="card-img-top w-50"
+              alt="user-3"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <span style="color: #e77c40">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </span>
+              <p class="card-text text-primary fw-bold">Natasha Romanoff</p>
+              <p class="card-text mt-3 fw-bold">Agent</p>
+            </div>
+          </div>
+        </div>
+        <!-- Client Card Ends -->
+      </div>
+    </section>
 
     <!-- FAQ -->
     <section></section>
     <!-- Footer -->
+
     <footer></footer>
     <!-- Bootstrap JS -->
 
