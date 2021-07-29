@@ -15,6 +15,10 @@ body {
   width: 288px;
   height: 243px;
 }
+.img-faq {
+  width: 431.2px;
+  height: 423.5px;
+}
 .img-greyscale {
   width: 288px;
   height: 243px;
@@ -23,4 +27,7 @@ body {
 
 span {
   color: #e76f51;
+}
+.faq {
+  text-decoration: none;
 }
