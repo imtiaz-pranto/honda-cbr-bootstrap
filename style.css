@@ -1,0 +1,13 @@
+.bg-container {
+  background-color: #264653;
+}
+.custom-btn {
+  background-color: #e76f51;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: white;
+}
+
+text-font {
+  font-family: "Poppins", sans-serif;
+}
